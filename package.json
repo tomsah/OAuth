@@ -1,0 +1,25 @@
+{
+  "name": "oauth-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start:client": "ts-node client/index.ts",
+    "start:resource": "ts-node ressource_server/index.ts",
+    "dev:client": "nodemon client/index.ts",
+    "dev:resource": "nodemon ressource_server/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t salah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
